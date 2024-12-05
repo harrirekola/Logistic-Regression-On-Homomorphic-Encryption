@@ -61,7 +61,7 @@ keypair = context.KeyGen()
 context.EvalMultKeyGen(keypair.secretKey)
 
 # Encrypt the training data and labels
-subset_size = 180  # Smaller dataset for demonstration
+subset_size = 170  # Smaller dataset for demonstration
 X_train_small = X_train[:subset_size]
 y_train_small = y_train[:subset_size]
 
