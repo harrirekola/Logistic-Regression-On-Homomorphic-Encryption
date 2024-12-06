@@ -129,7 +129,6 @@ def gradient_descent_step(X_encrypted, y_encrypted, weights, learning_rate, cont
 
     return updated_weights
 
-
 # Perform gradient descent
 num_iterations = 2
 weights = initial_weights
@@ -161,4 +160,3 @@ y_test_pred = np.array(decrypted_predictions) > 0.5
 
 # Evaluate accuracy
 print("Encrypted Test Accuracy:", accuracy_score(y_test[:subset_size], y_test_pred))
-
